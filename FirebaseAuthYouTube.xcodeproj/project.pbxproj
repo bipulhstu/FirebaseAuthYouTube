@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CBDD9E7B2CF1AB33000C513C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBDD9E622CF1AB31000C513C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBDD9E692CF1AB31000C513C;
+			remoteInfo = FirebaseAuthYouTube;
+		};
+		CBDD9E852CF1AB33000C513C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBDD9E622CF1AB31000C513C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBDD9E692CF1AB31000C513C;
+			remoteInfo = FirebaseAuthYouTube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBDD9E6A2CF1AB31000C513C /* FirebaseAuthYouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseAuthYouTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDD9E7A2CF1AB33000C513C /* FirebaseAuthYouTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseAuthYouTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDD9E842CF1AB33000C513C /* FirebaseAuthYouTubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseAuthYouTubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CBDD9E6C2CF1AB31000C513C /* FirebaseAuthYouTube */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FirebaseAuthYouTube;
+			sourceTree = "<group>";
+		};
+		CBDD9E7D2CF1AB33000C513C /* FirebaseAuthYouTubeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FirebaseAuthYouTubeTests;
+			sourceTree = "<group>";
+		};
+		CBDD9E872CF1AB33000C513C /* FirebaseAuthYouTubeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FirebaseAuthYouTubeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBDD9E672CF1AB31000C513C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDD9E772CF1AB33000C513C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDD9E812CF1AB33000C513C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBDD9E612CF1AB31000C513C = {
+			isa = PBXGroup;
+			children = (
+				CBDD9E6C2CF1AB31000C513C /* FirebaseAuthYouTube */,
+				CBDD9E7D2CF1AB33000C513C /* FirebaseAuthYouTubeTests */,
+				CBDD9E872CF1AB33000C513C /* FirebaseAuthYouTubeUITests */,
+				CBDD9E6B2CF1AB31000C513C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBDD9E6B2CF1AB31000C513C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBDD9E6A2CF1AB31000C513C /* FirebaseAuthYouTube.app */,
+				CBDD9E7A2CF1AB33000C513C /* FirebaseAuthYouTubeTests.xctest */,
+				CBDD9E842CF1AB33000C513C /* FirebaseAuthYouTubeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBDD9E692CF1AB31000C513C /* FirebaseAuthYouTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDD9E8E2CF1AB33000C513C /* Build configuration list for PBXNativeTarget "FirebaseAuthYouTube" */;
+			buildPhases = (
+				CBDD9E662CF1AB31000C513C /* Sources */,
+				CBDD9E672CF1AB31000C513C /* Frameworks */,
+				CBDD9E682CF1AB31000C513C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CBDD9E6C2CF1AB31000C513C /* FirebaseAuthYouTube */,
+			);
+			name = FirebaseAuthYouTube;
+			packageProductDependencies = (
+			);
+			productName = FirebaseAuthYouTube;
+			productReference = CBDD9E6A2CF1AB31000C513C /* FirebaseAuthYouTube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBDD9E792CF1AB33000C513C /* FirebaseAuthYouTubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDD9E912CF1AB33000C513C /* Build configuration list for PBXNativeTarget "FirebaseAuthYouTubeTests" */;
+			buildPhases = (
+				CBDD9E762CF1AB33000C513C /* Sources */,
+				CBDD9E772CF1AB33000C513C /* Frameworks */,
+				CBDD9E782CF1AB33000C513C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBDD9E7C2CF1AB33000C513C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CBDD9E7D2CF1AB33000C513C /* FirebaseAuthYouTubeTests */,
+			);
+			name = FirebaseAuthYouTubeTests;
+			packageProductDependencies = (
+			);
+			productName = FirebaseAuthYouTubeTests;
+			productReference = CBDD9E7A2CF1AB33000C513C /* FirebaseAuthYouTubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBDD9E832CF1AB33000C513C /* FirebaseAuthYouTubeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDD9E942CF1AB33000C513C /* Build configuration list for PBXNativeTarget "FirebaseAuthYouTubeUITests" */;
+			buildPhases = (
+				CBDD9E802CF1AB33000C513C /* Sources */,
+				CBDD9E812CF1AB33000C513C /* Frameworks */,
+				CBDD9E822CF1AB33000C513C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBDD9E862CF1AB33000C513C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CBDD9E872CF1AB33000C513C /* FirebaseAuthYouTubeUITests */,
+			);
+			name = FirebaseAuthYouTubeUITests;
+			packageProductDependencies = (
+			);
+			productName = FirebaseAuthYouTubeUITests;
+			productReference = CBDD9E842CF1AB33000C513C /* FirebaseAuthYouTubeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBDD9E622CF1AB31000C513C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					CBDD9E692CF1AB31000C513C = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					CBDD9E792CF1AB33000C513C = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CBDD9E692CF1AB31000C513C;
+					};
+					CBDD9E832CF1AB33000C513C = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = CBDD9E692CF1AB31000C513C;
+					};
+				};
+			};
+			buildConfigurationList = CBDD9E652CF1AB31000C513C /* Build configuration list for PBXProject "FirebaseAuthYouTube" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBDD9E612CF1AB31000C513C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CBDD9E6B2CF1AB31000C513C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBDD9E692CF1AB31000C513C /* FirebaseAuthYouTube */,
+				CBDD9E792CF1AB33000C513C /* FirebaseAuthYouTubeTests */,
+				CBDD9E832CF1AB33000C513C /* FirebaseAuthYouTubeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBDD9E682CF1AB31000C513C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDD9E782CF1AB33000C513C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDD9E822CF1AB33000C513C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBDD9E662CF1AB31000C513C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDD9E762CF1AB33000C513C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDD9E802CF1AB33000C513C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBDD9E7C2CF1AB33000C513C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBDD9E692CF1AB31000C513C /* FirebaseAuthYouTube */;
+			targetProxy = CBDD9E7B2CF1AB33000C513C /* PBXContainerItemProxy */;
+		};
+		CBDD9E862CF1AB33000C513C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBDD9E692CF1AB31000C513C /* FirebaseAuthYouTube */;
+			targetProxy = CBDD9E852CF1AB33000C513C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CBDD9E8C2CF1AB33000C513C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBDD9E8D2CF1AB33000C513C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBDD9E8F2CF1AB33000C513C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseAuthYouTube/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bipul.FirebaseAuthYouTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBDD9E902CF1AB33000C513C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseAuthYouTube/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bipul.FirebaseAuthYouTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBDD9E922CF1AB33000C513C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bipul.FirebaseAuthYouTubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseAuthYouTube.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirebaseAuthYouTube";
+			};
+			name = Debug;
+		};
+		CBDD9E932CF1AB33000C513C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bipul.FirebaseAuthYouTubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseAuthYouTube.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirebaseAuthYouTube";
+			};
+			name = Release;
+		};
+		CBDD9E952CF1AB33000C513C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bipul.FirebaseAuthYouTubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirebaseAuthYouTube;
+			};
+			name = Debug;
+		};
+		CBDD9E962CF1AB33000C513C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bipul.FirebaseAuthYouTubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirebaseAuthYouTube;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBDD9E652CF1AB31000C513C /* Build configuration list for PBXProject "FirebaseAuthYouTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDD9E8C2CF1AB33000C513C /* Debug */,
+				CBDD9E8D2CF1AB33000C513C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDD9E8E2CF1AB33000C513C /* Build configuration list for PBXNativeTarget "FirebaseAuthYouTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDD9E8F2CF1AB33000C513C /* Debug */,
+				CBDD9E902CF1AB33000C513C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDD9E912CF1AB33000C513C /* Build configuration list for PBXNativeTarget "FirebaseAuthYouTubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDD9E922CF1AB33000C513C /* Debug */,
+				CBDD9E932CF1AB33000C513C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDD9E942CF1AB33000C513C /* Build configuration list for PBXNativeTarget "FirebaseAuthYouTubeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDD9E952CF1AB33000C513C /* Debug */,
+				CBDD9E962CF1AB33000C513C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBDD9E622CF1AB31000C513C /* Project object */;
+}
