@@ -128,7 +128,7 @@ struct LoginView: View {
     }
     private var signUpButton: some View{
         NavigationLink {
-            
+            CreateAccountView()
         } label: {
             HStack{
                 Text("Don't have an account?")
