@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct LoginView: View {
-    
     @State private var email: String = ""
     @State private var password: String = ""
     
+    @EnvironmentObject var authViewModel: AuthViewModel
+
     var body: some View {
         NavigationStack {
             ScrollView{
@@ -81,7 +82,9 @@ struct LoginView: View {
     }
     private var loginButton: some View{
         Button{
-            
+            Task{
+                await authViewModel.login(email: email, password: password)
+            }
         } label: {
             Text("Login")
             
@@ -129,6 +132,7 @@ struct LoginView: View {
     private var signUpButton: some View{
         NavigationLink {
             CreateAccountView()
+                .environmentObject(authViewModel)
         } label: {
             HStack{
                 Text("Don't have an account?")
