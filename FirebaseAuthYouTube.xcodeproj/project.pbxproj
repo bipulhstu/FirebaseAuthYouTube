@@ -35,16 +35,6 @@
 			path = FirebaseAuthYouTube;
 			sourceTree = "<group>";
 		};
-		CBDD9E7D2CF1AB33000C513C /* FirebaseAuthYouTubeTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FirebaseAuthYouTubeTests;
-			sourceTree = "<group>";
-		};
-		CBDD9E872CF1AB33000C513C /* FirebaseAuthYouTubeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FirebaseAuthYouTubeUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				CBDD9E6C2CF1AB31000C513C /* FirebaseAuthYouTube */,
-				CBDD9E7D2CF1AB33000C513C /* FirebaseAuthYouTubeTests */,
-				CBDD9E872CF1AB33000C513C /* FirebaseAuthYouTubeUITests */,
 				CBDD9E6B2CF1AB31000C513C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				CBDD9E7C2CF1AB33000C513C /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				CBDD9E7D2CF1AB33000C513C /* FirebaseAuthYouTubeTests */,
-			);
 			name = FirebaseAuthYouTubeTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				CBDD9E862CF1AB33000C513C /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				CBDD9E872CF1AB33000C513C /* FirebaseAuthYouTubeUITests */,
 			);
 			name = FirebaseAuthYouTubeUITests;
 			packageProductDependencies = (
