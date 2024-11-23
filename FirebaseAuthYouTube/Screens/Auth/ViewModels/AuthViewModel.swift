@@ -77,4 +77,20 @@ final class AuthViewModel: ObservableObject{
         }
     }
     
+    func deleteAccount() async{
+        do{
+            userSession = nil
+            currentUser = nil
+            deleteUserFromFirestore(by: auth.currentUser?.uid ?? "") //delete user data from firestore
+           try await auth.currentUser?.delete() //delete user auth
+        } catch{
+            isError = true
+        }
+    }
+    
+    private func deleteUserFromFirestore(by uid: String){
+        firestore.collection("users").document(uid).delete()
+        
+    }
+    
 }

@@ -14,6 +14,7 @@ struct CreateAccountView: View {
     @State private var confirmPassword: String = ""
     
     @EnvironmentObject var authViewModel: AuthViewModel
+    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         VStack(spacing: 16){
@@ -52,6 +53,12 @@ struct CreateAccountView: View {
                 Task{
                     await authViewModel.createUser(email: email, fullName: fullName, password: password)
                 }
+                
+                //after create account, go back to login screen
+                if !authViewModel.isError{
+                    presentationMode.wrappedValue.dismiss()
+                }
+                
             } label: {
                 Text("Create Account")
                     
@@ -70,4 +77,5 @@ struct CreateAccountView: View {
 
 #Preview {
     CreateAccountView()
+        .environmentObject(AuthViewModel())
 }

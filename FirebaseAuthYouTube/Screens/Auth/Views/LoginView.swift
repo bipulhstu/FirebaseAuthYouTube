@@ -12,7 +12,7 @@ struct LoginView: View {
     @State private var password: String = ""
     
     @EnvironmentObject var authViewModel: AuthViewModel
-
+    
     var body: some View {
         NavigationStack {
             ScrollView{
@@ -42,9 +42,13 @@ struct LoginView: View {
                     
                     
                 }
-            }.ignoresSafeArea()
-                .padding(.horizontal)
-                .padding(.vertical, 8)
+            }
+            .ignoresSafeArea()
+            .padding(.horizontal)
+            .padding(.vertical, 8)
+            .alert("Something went wrong!!", isPresented: $authViewModel.isError){
+                
+            }
         }
     }
     
@@ -149,4 +153,5 @@ struct LoginView: View {
 
 #Preview {
     LoginView()
+        .environmentObject(AuthViewModel())
 }
